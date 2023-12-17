@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/randevusa_takaytol"
+    tools:context=".Mainkayitol">
+
+    <EditText
+        android:id="@+id/kayitEmail"
+        android:layout_width="347dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="220dp"
+        android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:hint="Email:"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/kayitSifre"
+        android:layout_width="343dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="100dp"
+        android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+        android:ems="10"
+        android:hint="Şifre:"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kayitEmail" />
+
+    <EditText
+        android:id="@+id/kayitsifreOnayla"
+        android:layout_width="343dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="Şifre Onayla:"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/kayitSifre"
+        app:layout_constraintTop_toBottomOf="@+id/kayitSifre" />
+
+    <Button
+        android:id="@+id/kaydet"
+        android:layout_width="133dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="60dp"
+        android:background="@color/material_dynamic_secondary99"
+        android:backgroundTint="@color/white"
+        android:fallbackLineSpacing="false"
+        android:hapticFeedbackEnabled="false"
+        android:text="Kaydet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/giriseDon"
+        android:layout_width="133dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="60dp"
+        android:background="@color/design_default_color_surface"
+
+        android:text="Girişe Dön"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/kaydet"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

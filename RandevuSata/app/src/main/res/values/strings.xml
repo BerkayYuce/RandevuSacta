@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Randevu Saçta</string>
+    <string-array name="RandevuSaatleri">
+        <item>9.00-9.30</item>
+        <item>9.40-10.10</item>
+        <item>10.20-10.50</item>
+        <item>11.00-11.30</item>
+        <item>11.40-12.10</item>
+        <item>12.20-12.50</item>
+        <item>13.00-13.30</item>
+        <item>13.40-14.10</item>
+        <item>14.20-14.50</item>
+        <item>15.00-15.30</item>
+        <item>15.40-16.10</item>
+        <item>16.20-16.50</item>
+        <item>17.00-17.30</item>
+        <item>17.40-18.10</item>
+        <item>18.20-18.50</item>
+        <item>19.00-19.30</item>
+        <item>19.40-20.10</item>
+    </string-array>
+</resources>
